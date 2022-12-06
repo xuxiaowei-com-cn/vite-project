@@ -12,7 +12,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ElMessageBox } from 'element-plus'
+import { ElMessageBox } from "element-plus"
 
 const tableData = [
   {
