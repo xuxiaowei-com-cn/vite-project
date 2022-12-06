@@ -2,6 +2,7 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
+import Table from './components/Table.vue'
 </script>
 
 <template>
@@ -14,7 +15,8 @@ import HelloWorld from './components/HelloWorld.vue'
 <!--    </a>-->
 <!--  </div>-->
 <!--  <HelloWorld msg="Vite + Vue" />-->
-  <el-button>Default</el-button>
+<!--  <el-button>Default</el-button>-->
+  <Table></Table>
 </template>
 
 <style scoped>
